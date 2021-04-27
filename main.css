@@ -1,2 +1,56 @@
+/* CSS reset */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background: url(assets/business_card.jpg);
+  background-size: cover;
+  border-radius: 5%; 
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  background: url(assets/wallpaper.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; 
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.head {
+  width: 240px;
+  height: 100%;
+  float: left;
+}
+
+.content {
+  width: 240px;
+  height: 100%;
+  float: right;
+}
+
+.name-headline {
+  margin-top: 50px;
+  text-align: center;
+}
 
