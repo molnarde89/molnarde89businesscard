@@ -7,14 +7,16 @@
   font-size: 100%;
 }
 
-/* Pozicionálás */
-
 .profile-card {
-  width: 480px;
-  max-width: calc(100vw - 10px);
-  background: url(assets/business_card.jpg);
+  width: 680px;
+  height: 380px;
+  background-color: hsla(0, 0%, 100%, .5);
   background-size: cover;
-  border-radius: 5%; 
+  border-radius: 5%;
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  font-family: Georgia;
+  color: rgba(0,0,0,.8);  
 }
 
 body {
@@ -30,11 +32,20 @@ body {
 }
 
 img {
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%; 
-  margin-left: 50px;
-  margin-top: 30px;
+  margin-left: 80px;
+  margin-top: 40px;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(40%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
 }
 
 .head {
@@ -44,13 +55,65 @@ img {
 }
 
 .content {
-  width: 240px;
+  width: 440px;
   height: 100%;
   float: right;
 }
 
 .name-headline {
-  margin-top: 50px;
+  margin-top: 20px;
+  margin-left: 80px;
   text-align: center;
 }
+
+.content {
+  padding: 5% 10%;
+}
+
+em {
+  font-weight: bold;
+  color: #696969;
+}
+
+em:hover {
+  color: blue;
+}
+
+i {
+ color: rgba(38, 23, 27, 0.9);
+}
+
+i:hover {
+  color: rgba(99, 140, 190, 1);
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 26px;
+}
+
+li {
+  display: inline;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 26px; 
+}
+
+h2 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.abaout {
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin-top: 6px;
+}
+
 
