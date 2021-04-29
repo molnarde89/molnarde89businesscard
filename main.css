@@ -144,30 +144,26 @@ h2 {
   }
   ul {
     margin-top: 6px;
-}
-
+  }
   li {
     margin-left: 22px;
     margin-right: 22px;
     font-size: 8px;
   }
-
   h1 {
     font-size: 9px; 
   }
-
   h2 {
     font-size: 8px;
     margin-top: 5px;
     margin-bottom: 4px;
   }
-
   .abaout {
     line-height: 14px;
     margin-top: 10px;
     text-align: justify;
     font-size: 8px;
-}
+  }
   p {
     font-size: 6px;
   }
